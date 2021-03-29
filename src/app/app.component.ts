@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularOutput';
+
+  parentMethod(evt){
+    alert("Welcome child "+ evt)
+  }
 }
